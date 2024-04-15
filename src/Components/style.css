@@ -1,0 +1,258 @@
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2a2735;
+}
+
+.api {
+  background-color: #2a2735;
+  color: white;
+  min-width: 100%;
+}
+
+.meme-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background: linear-gradient(to right, #672280, #A626D3 );
+  padding: 0 5%;
+  width: 90%;
+}
+.right-memeNav{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.meme-nav img{
+  width: 40px;
+  margin-right: 20px;
+}
+
+.meme-nav p{
+  font-size: 12px;
+}
+
+.meme-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-taker{
+  display: flex;
+  justify-content: center;
+}
+
+.input-top, .input-bottom{
+  width: 96%;
+  margin: 10px 2%;
+  background: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input{
+  width: 96%;
+  border: none;
+}
+
+.top{
+  margin: 0 30px;
+}
+
+.input-taker p{
+  color: rgb(77, 77, 77);
+}
+
+.input-taker input{
+  outline: none;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.submit-button{
+  width: 96%;
+  margin: 10px 2%;
+  background: linear-gradient(to right, #672280, #A626D3);
+  border: none;
+  color: white;
+  padding: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.display {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.display img{
+  max-height: 650px;
+  width: auto;
+}
+
+.top-text{
+  position: absolute;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    text-transform: uppercase;
+}
+.bottom-text {
+  position: absolute;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+  text-transform: uppercase;
+}
+
+.top{
+  top: 0;
+  margin: 40px 0;
+}
+
+.bottom{
+  bottom: 0;
+  margin: 40px 0;
+}
+
+/* .things{
+  background-color: #672280;
+  width: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.things button{
+  margin: 30px;
+  width: 200px;
+  height: 40px;
+  border: solid 1px white;
+  background-color: #672280;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.things button:hover{
+  background-color: #A626D3;
+} */
+
+/* .counter{
+  min-height: 100vh;
+  background-color: rgb(37, 36, 49);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter button{
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: gray;
+  color: white;
+  position: relative;
+  margin-top: 30px;
+}
+
+.counter button:hover{
+  background-color: rgb(99, 98, 98);
+  cursor: pointer;
+}
+
+.counter-display{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  margin: 0 -10px;
+
+} */
+
+/* .square-element {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+} */
+
+
+
+/* 
+.form-exercise {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #672280;
+}
+
+.form-exercise form{
+  border: 1px solid rgb(135, 6, 241);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.form-exercise input{
+  margin-top: 5px;
+  margin-bottom: 0;
+  border: 1px solid rgb(9, 107, 0);
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  text-indent: 5px;
+  color: gray;
+  font-size: 12px;
+}
+
+.form-exercise label{
+  font-size: 12px;
+  color: rgb(95, 94, 94);
+}
+
+.form-exercise button{
+  background-color: #A626D3;
+  border: none;
+  width: 100px;
+  color: white;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+.form-exercise button:hover{
+  background-color: #672280;
+  cursor: pointer;
+}
+
+.wrong {
+  font-size: 7px;
+  color: rgb(218, 17, 17);
+  margin: 0;
+}
+.right{
+  font-size: 7px;
+  color: rgb(8, 158, 2);
+  margin: 0;
+  margin-bottom: 5px;
+} */
